@@ -1,0 +1,17 @@
+{
+  "name": "reactNativeDemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "ios":"react-native run-ios"
+  },
+  "dependencies": {
+    "react": "15.3.1",
+    "react-native": "0.32.0",
+    "react-redux": "^4.4.1",
+    "redux": "^3.3.1",
+    "redux-thunk":"^2.0.1",
+    "redux-persist":"^3.5.0"
+  }
+}
