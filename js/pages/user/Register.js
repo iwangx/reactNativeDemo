@@ -14,7 +14,7 @@ import reducer from "../../reducers/user/userReducer"
 var Register =React.createClass({
 
     press:function () {
-        //debugger
+        //跳转回前面的页面
         router.pop();
         var actions=this.props.actions;
         actions.getAll();
@@ -31,4 +31,3 @@ var Register =React.createClass({
 });
 
 module.exports=bindRedux(Register,reducer,action);
-//module.exports=Register;

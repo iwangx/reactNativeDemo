@@ -16,6 +16,7 @@ import style from "./Login.style"
 var Login = React.createClass({
 
     press:function () {
+        //跳转到叫做注册的页面
         this.props.router.toRegister();
     },
 

@@ -3,7 +3,7 @@
  * https://github.com/facebook/react-native
  */
 
-//import App from './js/index';
+//引入首页以及跳转
 import Index from './js/Index'
 
 import {
